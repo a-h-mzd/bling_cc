@@ -1,0 +1,64 @@
+{
+  "@@locale": "en",
+  "name": "Name",
+  "@name": {
+    "type": "text"
+  },
+  "emptyScreenText": "Start typing to see the results",
+  "@emptyScreenText": {
+    "type": "text"
+  },
+  "generalError": "Something went wrong",
+  "@generalError": {
+    "type": "text"
+  },
+  "describeName": "Name: {name}",
+  "@describeName": {
+    "type": "text",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "describeAge": "Age: {age}",
+  "@describeAge": {
+    "type": "text",
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "noAgeAvailable": "No age available for given name",
+  "@noAgeAvailable": {
+    "type": "text"
+  },
+  "tooManyRequestsRetryInHours": "Try again in {inHours} hours",
+  "@tooManyRequestsRetryInHours": {
+    "type": "text",
+    "placeholders": {
+      "inHours": {
+        "type": "int"
+      }
+    }
+  },
+  "tooManyRequestsRetryInMinutes": "Try again in {inMinutes} minutes",
+  "@tooManyRequestsRetryInMinutes": {
+    "type": "text",
+    "placeholders": {
+      "inMinutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tooManyRequestsRetryInSeconds": "Try again in {inSeconds} seconds",
+  "@tooManyRequestsRetryInSeconds": {
+    "type": "text",
+    "placeholders": {
+      "inSeconds": {
+        "type": "int"
+      }
+    }
+  }
+}
